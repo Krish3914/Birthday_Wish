@@ -1,0 +1,70 @@
+body{
+    /* images/bg.jpg */
+    background: url(./birth.jpg);
+    /* no-repeat center center fixed  */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* background-color: rgb(11, 15, 37); */
+    text-align: center;
+    height:100%;
+    width:100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+img{
+    position: absolute;
+    width: 700px;
+    z-index: 0;
+    height:600px;
+    border-radius:100px;
+    padding: 0px;
+    /* rotate: 54px; */
+    margin-left: 50px;
+    margin-top: 20px; 
+    border-color: transparent;
+    top: 0;
+    left: 0;    
+    display: flex;
+}
+#hi{
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+    height:200px;
+    border-radius:10px;
+    padding: 0px;
+    /* rotate: 54px; */
+    margin-left: 1200px;
+    margin-top: 10px; 
+    border-color: transparent;
+    /* top: 0;
+    left: 0;     */
+    /* display: flex; */
+}
+p{
+    /* background: url(./gift.jpeg);
+    background-size: cover; */
+    /* width: 1px;
+    height:10px; */
+    font-size: xx-large;
+    position: absolute;
+    color: navy;
+    /* display:flex; */
+    /* justify-content: center;
+    align-items: center; */
+    margin-left: 50px;
+    margin-top: 150px;
+    z-index: 1;
+    padding: 200px;
+}
+footer{
+    margin-top: 90%;
+    margin-left: 0px;
+    z-index: 2;
+    color: red;
+}

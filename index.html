@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <img src="./side.jpeg" alt="">
+    <h1 id="first"><em>Welcome TO Your</em></h1>
+    <h1 id="second"><em>Birth-Day World</em></h1>
+    <h3 id="today">Today it's Your Day:</h3>
+    <div id="id1">
+        <input type="text" placeholder="Your Good Name" id="username">
+        <!-- <button onclick="submitForm()">Suprise is Waiting for U</button> -->
+    </div>
+    <div id="id2">
+        <h3 id="suprise">Surprise Birthday Parties came from the Heart,</h3>
+        <!-- <input type="text" placeholder="Enter Your Name" id="username"> -->
+        <button onclick="submitForm()"><em>Open The Knot</em></button>
+    </div>
+    <h3 id="but">But Surprises form unexpected ones are miracle ✨</h3>
+    <br>
+    <div id="fle"><p>🟠Happy birthday to you! I hope you have your cake and eat it too! <br>
+🟠Hoping all your birthday wishes come true! <br>
+🟠You're a star! Sending you all my love on your special day! <br>
+🟠May this next trip around the sun be your best one yet!
+</p>
+<!-- <img id="arrow" src="./arrow.png" alt=""> -->
+</div>
+    <h2>We have a Great-Suprise Wish Planned for you -- Open The Knot ::</h2>
+    <footer>© Krish Agrawal. 2023 All rights reserved.</footer>
+    <script>
+        function submitForm() {
+            // Get the username from the input field
+            const username = document.getElementById('username').value;
+           // Redirect to page2.html with the username as a query parameter
+            window.location.href = `birth.html?username=${username}`;
+        }
+    </script>
+
+</body>
+</html>
+
+<!-- <script>
+  function submitForm() {
+    let username = document.getElementById("username").value;
+    // console.log(username);
+
+    // Add your logic here to process or validate the input
+    // For example, you can send the data to a server using AJAX
+
+    // For demonstration purposes, let's log the values to the console
+    // const moduleVariable = "Hello!"
+    
+  }
+</script> -->

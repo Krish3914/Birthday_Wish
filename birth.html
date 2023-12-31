@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>birthday</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <!-- <h1>Happy Birthday ✨</h1> -->
+    <img src="./happy.jpeg" alt="">
+    <img id="hi" src="./gift2.jpeg" alt="">
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const user = urlParams.get('username');
+
+            // Display the username on the page
+        document.write(`<p>Happy Birthday ${user} ✨</p>`);
+    </script>
+    <footer>© Krish Agrawal. All rights reserved.</footer>
+</body>
+</html>
+
+
+<!-- 
+        // Get the username from local storage
+        // const v = localStorage.getItem('username');
+        // const v = user;
+        // const urlParams = new URLSearchParams(window.location.search);
+        // const username = urlParams.get('username');
+
+        // // Now you can use the 'username' variable as needed
+        // // console.log(username);
+        // document.write(`<p>Happy Birthday: ${username}</p>`); -->
+
+            <!-- <form name="form1" action="./birth.html" method="get"> -->
+<!-- <table>
+    <tr>
+        <td id="here">test</td>
+    </tr>
+</table>
+</form> -->
+    <!-- <script>
+  function submitForm() {
+    let username = document.getElementById("username").value;
+    // console.log(username);
+
+    // Add your logic here to process or validate the input
+    // For example, you can send the data to a server using AJAX
+
+    // For demonstration purposes, let's log the values to the console
+    // import { moduleVariable } from './file1.js';
+
+// console.log(moduleVariable); 
+    // export const moduleVariable = "Hello from File 1!"
+  }
+</script> -->
